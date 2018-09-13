@@ -45,7 +45,6 @@ body{
     $image = "";
 
 if($_SERVER['REQUEST_METHOD']== 'POST') {
-    $name = $email  = $pass = $repass=  $gender = $country = $note = $image = "";
     $name = checkInput($_POST['name']);
     $email = checkInput($_POST['email']);
     $pass = checkInput($_POST['pass']);
