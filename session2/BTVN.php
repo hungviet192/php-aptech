@@ -152,7 +152,7 @@ function checkInput($data) {
 </tr>
 <tr class="table">
     <td class="left"><p>Giới tính</p></td>
-    <td class="right"><p><input type="radio"  name="gender" value="male"> Nam <input type="radio" name="gender" value="female"> Nữ
+    <td class="right"><p><input type="radio"  name="gender" value="Nam"> Nam <input type="radio" name="gender" value="Nữ"> Nữ
     <span class="error"><?php if(isset($genderError))  echo $genderError?></span></p>
      </td>
 </tr>
