@@ -193,7 +193,6 @@ function checkInput($data) {
 </form>
 <?php
 echo "<h2>Thông Tin</h2>";
-if ($submit=='submit') {
 echo $name;
 echo "<br>";
 echo $email;
@@ -207,8 +206,6 @@ echo "<br>";
 echo $note;
 echo "<br>";
 echo $image;  
-}else echo "<span class = 'error'>", "Đăng ký không thành công","</span>" ;
-
 ?>
 </div>
   
